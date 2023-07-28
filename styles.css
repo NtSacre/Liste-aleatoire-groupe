@@ -61,10 +61,10 @@ header{
 #date{
     text-align: center;
     background-color: rgb(240, 49, 103);
-    height: 30px;
+    height: 32px;
     padding: 5px ;
     color: aliceblue;
-    font-size: 15px;
+    font-size: min(2vw,1.2em);
     font-style: italic;
     font-weight: bold;
 }
