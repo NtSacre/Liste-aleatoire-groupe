@@ -61,7 +61,7 @@ header{
 #date{
     text-align: center;
     background-color: rgb(240, 49, 103);
-    height: 32px;
+    height: 32.5px;
     padding: 5px ;
     color: aliceblue;
     font-size: min(2vw,1.2em);
