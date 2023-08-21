@@ -34,7 +34,7 @@ let etudiantClass = [
   "Seydou Diallo",
   "Thioub dokhé",
   "Yaye Rokhaya",
-  "XXX XXXXXX",
+  "Rokhaya Touré",
 ];
 randomTableau(etudiantClass);
 console.log(etudiantClass);
