@@ -5,36 +5,28 @@ function randomTableau(tableau) {
   }
 }
 let etudiantClass = [
-  "Aicha Ndiaye",
-  "Abdoulaye korse Diallo",
-  "Aboubacar Leye",
-  "Adja Khadija Mbaye",
-  "Bouh Diallo",
-  "Bourama Ngom",
-  "Boyor Annie Thérèse",
-  "Cheikh Tidiane Badji",
-  "Dieye khadidiatou",
-  "Djiyé Ngom",
-  "FALL",
-  "Fatoumata Binta I Bah",
-  "Gisèle Zoundete",
-  "Adam Gueye",
-  "Imalet Benji Sadio",
-  "jeanne",
-  "Khady ba",
-  "Magid_ba",
-  "Mamadou cire Camara",
-  "Mariama Diallo",
-  "Mountaga",
-  "Moussa Basse",
-  "Mariama Mané Wade",
-  "Mouhamadou Faye",
-  "Ntandou Sacre",
-  "Saifoulaye Diallo",
-  "Seydou Diallo",
-  "Thioub dokhé",
-  "Yaye Rokhaya",
-  "Rokhaya Touré",
+  "Pape Ibrahima Gueye",
+  "Daouda Coulibaly",
+  "Elisabeth Yao",
+  "Darel Kif",
+  "Kia Leye",
+  "Jem Diatta",
+  "Laye Souare",
+  "Modou Ndiaye",
+  "Assane Mbodj",
+  "Coumba Thiaw",
+  "Ousmane Ndao",
+  "Ouattara Mati",
+  "Zeyna",
+  "Coumba Diouf",
+  "Aliou Diallo",
+  "Alioune Ndiaye",
+  "Yah Awa Mountakha",
+  "WilsonTureh Ceteris",
+  "Elhadji Toure",
+  "Babacar Mbaye",
+  "kelly Kelly",
+  
 ];
 randomTableau(etudiantClass);
 console.log(etudiantClass);
@@ -42,9 +34,8 @@ let tab1 = etudiantClass.slice(0, 5);
 console.log(tab1);
 let tab2 = etudiantClass.slice(5, 10);
 let tab3 = etudiantClass.slice(9, 15);
-let tab4 = etudiantClass.slice(14, 20);
-let tab5 = etudiantClass.slice(19, 25);
-let tab6 = etudiantClass.slice(24, 30);
+let tab4 = etudiantClass.slice(14, 21);
+
 
 let myDiv1 = document.getElementById("groupe1");
 for (let index = 0; index < tab1.length; index++) {
@@ -69,20 +60,7 @@ let myDiv4 = document.getElementById("groupe4");
 for (let index = 1; index < tab4.length; index++) {
   myDiv4.innerHTML += `<span class="nom">  ${tab4[index]}</span><br>`;
 }
-// tableau 5----------------
 
-let myDiv5 = document.getElementById("groupe5");
-
-for (let index = 1; index < tab5.length; index++) {
-  myDiv5.innerHTML += `<span class="nom">  ${tab5[index]}</span><br>`;
-}
-// tableau 6----------------
-
-let myDiv6 = document.getElementById("groupe6");
-
-for (let index = 1; index < tab6.length; index++) {
-  myDiv6.innerHTML += `<span class="nom">  ${tab6[index]}</span><br>`;
-}
 function afficheDate() {
   const date = new Date();
   const heure = date.getHours();
